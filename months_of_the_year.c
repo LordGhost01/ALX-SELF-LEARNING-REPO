@@ -1,7 +1,6 @@
-ii// Online C compiler to run C program online
 #include <stdio.h>
 
-int main() 
+int main()
 {
     int month;
     
@@ -11,43 +10,43 @@ int main()
     switch(month)
     {
         case 1:
-        printf("January ");
+        printf("January\n ");
         break;
         case 2:
-        printf("February ");
+        printf("February\n ");
         break;
         case 3:
-        printf("March ");
+        printf("March\n  ");
         break;
         case 4:
-        printf("April ");
+        printf("April\n  ");
         break;
         case 5:
-        printf("May ");
+        printf("May\n  ");
         break;
         case 6:
-        printf("June ");
+        printf("June\n  ");
         break;
         case 7:
-        printf("July ");
+        printf("July\n  ");
         break;
         case 8:
-        printf("August ");
+        printf("August\n  ");
         break;
         case 9:
-        printf("September ");
+        printf("September\n  ");
         break;
         case 10:
-        printf("October ");
+        printf("October\n  ");
         break;
         case 11:
-        printf("November ");
-        break;
-        case 12:
-        printf("December ");
+        printf("November\n ");
+	break;
+	case 12:
+        printf("December\n ");
         break;
         default:
-        printf("This digit is not allocated to a month ");
+        printf("This digit is not allocated to a month\n ");
     }
     return 0;
 }
